@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title>MindArmor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>🧠 MIndArmor</h1>
+      <p id="affirmation">Click below to armor up your mind,</p>
+
+      <button onclick="showAffirmation()">🛡️ Give me a reminder</button>
+      <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+      <button onclick="startMusic()">🔊 Play Music</button>
+    </div>
+
+    <iframe
+  id="bg-music-player"
+  width="0"
+  height="0"
+  style="display:none"
+  src=""
+  allow="autoplay">
+</iframe>
+
+    <script src="script.js"></script>
+  </body>
+</html>
