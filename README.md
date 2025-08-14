@@ -16,3 +16,8 @@ Tech	Description
 HTML	Structure of the app
 CSS	Styling, layout, dark mode
 JavaScript	Logic for affirmation, dark mode, music trigger
+
+
+## 📷 Screenshot
+![Focus Affirmation App](focus-affirmation-app.PNG)
+
